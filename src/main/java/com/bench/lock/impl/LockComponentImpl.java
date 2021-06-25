@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.CannotAcquireLockException;
 import org.springframework.integration.redis.util.RedisLockRegistry;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
@@ -18,6 +19,7 @@ import java.util.concurrent.locks.Lock;
  * @DATE 2021/6/22 23:34
  **/
 @Slf4j
+@Service
 public class LockComponentImpl implements LockComponent {
     @Autowired
     private RedisLockRegistry redisLockRegistry;
