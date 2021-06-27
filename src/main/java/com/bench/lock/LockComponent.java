@@ -5,7 +5,6 @@
 package com.bench.lock;
 
 import com.bench.lock.enums.LockAppNameEnum;
-import com.bench.lock.model.LockDataType;
 
 import java.util.concurrent.TimeUnit;
 

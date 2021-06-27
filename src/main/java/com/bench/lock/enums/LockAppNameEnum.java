@@ -1,6 +1,7 @@
 package com.bench.lock.enums;
 
-import com.yuan.common.enums.EnumBase;
+
+import com.bench.common.enums.EnumBase;
 
 /**
  * @className LockAppNameEnum

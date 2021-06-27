@@ -1,7 +1,7 @@
 package com.bench.lock;
 
 
-import com.yuan.common.enums.lock.LockTypeEnum;
+import com.bench.lock.enums.LockTypeEnum;
 
 /**
  * 创建Lock
